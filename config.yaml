@@ -1,0 +1,56 @@
+rag:
+  chunk_size: 512
+  chunk_overlap: 50
+  top_k: 5
+  embedding_model: "BAAI/bge-base-en-v1.5"
+  reranker_model: "BAAI/bge-reranker-base"
+  vector_db: "qdrant"
+  collection_name: "insurance_policies"
+
+llm:
+  provider: "ollama"
+  model: "llama3.2:3b"
+  temperature: 0.1
+  max_tokens: 2048
+
+validation:
+  faithfulness_threshold: 0.85
+  precision_threshold: 0.88
+  recall_threshold: 0.85
+  latency_sla_ms: 3000
+  p99_sla_ms: 3000
+  p95_sla_ms: 2500
+  pii_leak_tolerance: 0
+
+model:
+  random_state: 42
+  eval_batch_size: 32
+
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed"
+  eval_path: "data/eval"
+
+feature_store:
+  provider: "feast"
+  online_store: "sqlite"
+  offline_store: "sqlite"
+  db_path: "features/feature_store/feast.db"
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "LogixRAG-MLOps"
+  registry_uri: "http://localhost:5000"
+
+dvc:
+  remote: "dagshub"
+  repro_cache: ".dvc/cache"
+
+monitoring:
+  drift_threshold: 0.05
+  latency_check_interval_sec: 60
+  alert_webhook: ""
+
+airflow:
+  dags_folder: "dags"
+  schedule_interval: "0 */6 * * *"

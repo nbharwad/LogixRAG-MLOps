@@ -1,0 +1,10 @@
+{"question": "What is the waiting period for pre-existing conditions?", "answer": "12 months", "context_policy_id": "POL-2024-001", "type": "health"}
+{"question": "What is the bodily injury liability limit per person?", "answer": "$100,000 per person", "context_policy_id": "POL-2024-002", "type": "auto"}
+{"question": "What percentage of Coverage A is personal property coverage?", "answer": "50% of Coverage A", "context_policy_id": "POL-2024-003", "type": "home"}
+{"question": "What is the maximum coverage amount for term life insurance?", "answer": "$5,000,000", "context_policy_id": "POL-2024-004", "type": "life"}
+{"question": "What is the minimum number of employees required for group health insurance?", "answer": "5 eligible employees", "context_policy_id": "POL-2024-005", "type": "health"}
+{"question": "What is the annual deductible for individual health insurance?", "answer": "$1,500 per individual", "context_policy_id": "POL-2024-001", "type": "health"}
+{"question": "What is the collision deductible amount?", "answer": "$500", "context_policy_id": "POL-2024-002", "type": "auto"}
+{"question": "What is the personal liability coverage amount?", "answer": "$300,000", "context_policy_id": "POL-2024-003", "type": "home"}
+{"question": "How long is the suicide exclusion period?", "answer": "2 years", "context_policy_id": "POL-2024-004", "type": "life"}
+{"question": "What percentage participation is required for group health?", "answer": "75%", "context_policy_id": "POL-2024-005", "type": "health"}

@@ -1,0 +1,23 @@
+# DVC Configuration for LogixRAG-MLOps
+# Use DagsHub for free remote storage
+
+labs:
+  ignore:
+    - "*.pyc"
+    - "__pycache__"
+    - ".pytest_cache"
+    - "*.egg-info"
+    - ".venv"
+    - "venv"
+
+params:
+  - config.yaml
+
+outputs:
+  metrics:
+    - "metrics/*.json"
+  plots:
+    - "plots/*.json"
+
+cache:
+  dir: .dvc/cache

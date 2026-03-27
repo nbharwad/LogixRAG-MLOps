@@ -1,0 +1,10 @@
+[core]
+    remote = dagshub
+    autostage = true
+
+[remote]
+    dagshub = "s3://dagshub-mlops/logixrag-mlops"
+
+[remote "dagshub"]
+url = "s3://dagshub-mlops/logixrag-mlops"
+endpoint = "https://dagshub.com/api/v1"
