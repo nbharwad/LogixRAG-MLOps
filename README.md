@@ -44,8 +44,6 @@
 
 **LogixRAG-MLOps** is an end-to-end production-grade MLOps pipeline for a Retrieval-Augmented Generation (RAG) system designed for the insurance domain. This project demonstrates enterprise-level MLOps patterns including data versioning, experiment tracking, model validation gates, CI/CD automation, monitoring, and orchestration — mirroring production systems used in real-world ML engineering roles.
 
-The project is designed to showcase proficiency in building scalable ML systems with proper MLOps practices, making it portfolio-ready and interview-demonstrable for ML engineering positions requiring 4+ years of experience.
-
 ---
 
 ## Problem Statement
@@ -926,10 +924,6 @@ Copyright (c) 2024 Nilesh Bharwad. All rights reserved.
 ## Author
 
 **Nilesh Bharwad**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ML Engineer-4%2B years experience-blueviolet.svg" alt="Experience">
-</p>
 
 <p align="center">
   <strong>Building Production-Grade ML Systems</strong>
